@@ -1,5 +1,5 @@
 .gallery {
-    background-color: $color-grey-dark-1;
+    background-color: $color-grey-light-1;
     grid-column: full-start / full-end;
 
     display: grid;
@@ -74,11 +74,11 @@
         object-fit: cover;
         height: 100%;
         width: 100%;
+        transition: all .3s;
 
         &:hover {
             outline: solid $color-primary .2rem;
             outline-offset: .4rem;
-            transition: all .3s;
         }
     }
 }
