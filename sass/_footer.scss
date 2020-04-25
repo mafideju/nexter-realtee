@@ -28,8 +28,9 @@
     &__link:hover,
     &__link:active {
         background-color: rgba($color: #fff, $alpha: 0.05);
-        transform: translateX(-0.5rem) translateY(-0.5rem);
+        transform: translateX(-0.25rem) translateY(-0.5rem);
         box-shadow: 0.1rem 1rem 2rem rgba(#fff, .125);
+        border-radius: 10rem;
     }
 }
 
