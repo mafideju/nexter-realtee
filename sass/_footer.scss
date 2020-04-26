@@ -11,6 +11,17 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
     grid-gap: 2rem;
     align-items: center;
+
+    @media only screen and (max-width: $bp-large) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        justify-content: center;
+        grid-template-columns: 1 / -1;
+        grid-gap: 1rem;
+
+    }
     
     &__link:link,
     &__link:visited {
